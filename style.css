@@ -1,0 +1,324 @@
+.container-fluid {
+  background-color: #fff0fd; /* Setează culoarea de fundal pentru containerul fluid */
+}
+
+.navbar-nav .nav-link {
+  color: rgb(7, 7, 7); /* Setează culoarea textului link-urilor din bara de navigare */
+}
+
+.navbar-nav .nav-link:hover{
+  color: #000; /* Setează culoarea textului pentru link-uri la hover */
+}
+
+main {
+  background-color: #f9bddf; /* Setează culoarea de fundal pentru întregul conținut din <main> */
+  padding: 50px 15px; /* Adaugăm padding pentru a crea spațiul între conținut și margini */
+}
+
+
+.container {
+  max-width: 1200px;
+  display: flex;
+}
+
+
+
+.main-content {
+  font-family: 'Times New Roman', Times, serif;
+  font-size:180px;
+  text-shadow: 1px 1px 2px rgba(55, 1, 39, 0.5);
+  white-space: nowrap;
+  position: relative; /* Adaugă position: relative */
+  left: -100px; /* Ajustează left pentru a muta titlul mai la stânga */
+  text-align: left;
+  width: 60%;
+  padding: 20px;
+  margin-top: 250px;
+}
+
+
+.main-image1 img{
+  width: 310px;
+  height: 40%;
+  padding:20px;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+
+.main-image img {
+  width: 95%;
+  padding:20px;
+  margin-left: 8%; /* Mută imaginea spre dreapta prin adăugarea de spațiu la stânga */
+  border: 2px solid #fefafa; /* Adaugă un chenar de 2 pixeli, solid, de culoare neagră */
+  box-sizing: border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adaugă o umbră de 4 pixeli spre partea de jos și de 8 pixeli spre partea dreaptă, cu opacitate de 0.1 */
+}
+
+.decorative-line {
+  position: absolute; /* Plasăm linia absolut în cadrul paginii */
+  left: 0; /* O începem de la marginea stângă a paginii */
+  width: 100%; /* Se extinde pe întreaga lățime a paginii */
+  height: 2px; /* Grosimea liniei */
+  margin-top: 20px;
+  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Schimbă culoarea și direcția gradientului */
+  
+}
+
+.card-container {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  display: flex;
+  background-color:  #f9bddf; /* Setează culoarea de fundal pentru containerul card */
+  padding: 10px; /* Adaugă un padding pentru a separa cardurile de margini */
+}
+
+.card {
+  width: 50%; /* Setează lățimea cardului la 50% din lățimea ecranului */
+  height: 1000px; /* Setează înălțimea cardului la 400 de pixeli, sau alte dimensiuni dorite */
+  
+}
+
+.card-body {
+  background-color: #f6d2e6; /* Setează culoarea de fundal pentru conținutul din interiorul cardului */
+  padding: 20px; /* Adaugă un padding pentru a separa conținutul de marginile cardului */
+  text-align: center;
+  border:2px solid #fceaf5;
+  
+}
+
+.card-text{
+  font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.make-up1 img {
+  width: 372px; 
+  height: 575px; 
+  padding:20px;
+  margin-top: 80px;
+  margin-left: 50%;
+  border: 2px solid #fefafa; /* Adaugă un chenar de 2 pixeli, solid, de culoare neagră */
+  box-sizing:border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
+}
+
+.image-caption1{
+  
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 10px;
+    white-space: nowrap;
+    margin-left: 70%;
+    color: #380534;
+}
+
+.decorative-line2{
+  position: absolute; /* Plasăm linia absolut în cadrul paginii */
+  left: 0; /* O începem de la marginea stângă a paginii */
+  width: 100%; /* Se extinde pe întreaga lățime a paginii */
+  height: 2px; /* Grosimea liniei */
+  margin-top: 0; /* Mută linia decorativă la marginea superioară a paginii */
+  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Schimbă culoarea și direcția gradientului */
+}
+
+.card-title {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card1{
+  width: 300px;
+  height:300px;
+ margin-top: 10px;
+ margin-right: 40px;
+ margin-left: 15px;
+ 
+}
+
+.decorative-line3{
+  position: absolute; /* Plasăm linia absolut în cadrul paginii */
+  left: 0; /* O începem de la marginea stângă a paginii */
+  width: 100%; /* Se extinde pe întreaga lățime a paginii */
+  height: 2px; /* Grosimea liniei */
+  margin-top: 0; /* Mută linia decorativă la marginea superioară a paginii */
+  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Schimbă culoarea și direcția gradientului */
+}
+
+/* Stiluri pentru acordeon */
+#accordionExample {
+  max-width: 300px; /* Setează o lățime maximă */
+  margin: 0 auto; /* Poziționează în mijlocul paginii */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #f6d2e6; /* Culoare de fundal */
+  padding: 20px; /* Spatiu interior pentru a separa conținutul de margine */
+  
+}
+
+/* Reducerea dimensiunii textului */
+.accordion .accordion-button {
+  background-color: #e684f3; /* Culoarea de fundal a butoanelor */
+  color: #140218; /* Culoarea textului butoanelor */
+  font-size: 14px;
+ 
+}
+.accordion-button:hover {
+  background-color: #f773ac; /* Culoarea de fundal a butoanelor la hover */
+}
+
+/* Reducerea spațiului dintre elementele acordeonului */
+.accordion-item {
+  margin-bottom: 8px;
+}
+.icon-right {
+  margin-left: 10px; /* Poziționează icoana la dreapta */
+}
+
+footer h5 {
+  text-align: center; /* Aliniază textul pe centru */
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#5c0a51;
+}
+form{
+  display: flex; 
+  flex-direction: column;
+  width: 400px; 
+  margin: 0 auto; 
+  margin-top: 50px;
+  background-color: #f8c6f1;
+  border: 2px solid #63054a; /* Adaugă un chenar formularului */
+  padding: 20px;
+  
+}
+
+.form label {
+  display: block; /* Afișează fiecare etichetă pe un nou rând */
+  margin-bottom: 5px; /* Adaugă un spațiu mic între etichete */
+  text-align: center;
+  
+}
+
+.form input, .form select {
+  width: 70%; /* Lățimea maximă pentru a se întinde pe toată lățimea containerului */
+  margin-bottom: 10px; /* Adaugă un spațiu între câmpurile de introducere */
+  margin-left: 50px;
+}
+
+.form button {
+  display: block; /* Afișează butonul pe un nou rând */
+  width: 40%; /* Lățimea maximă pentru a se întinde pe toată lățimea containerului */
+  margin-left: 110px;
+  background-color: #f6d2e6;
+}
+.form button:hover{
+  background-color: #7b0857;
+}
+
+
+footer {
+  background-color: #fff0fd; /* Culoarea de fundal */
+  padding: 20px; /* Adaugă puțin spațiu între conținut și margine */
+}
+
+/* CSS pentru designul responsive folosind media queries */
+
+/* Stiluri pentru main-content pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .main-content {
+    font-size: 24px; /* Reduc dimensiunea textului pentru ecrane mici */
+    width: 90%; /* Reduc lățimea pentru a se potrivi ecranului */
+    left: 0; /* Resetare la poziția originală */
+    margin-top: 100px; /* Reduc spațiul de sus */
+    order: 2; /* Schimbă ordinea, astfel încât main-content să fie după main-image */
+  }
+}
+
+/* Stiluri pentru main-image pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .main-image {
+    order: 1; /* Schimbă ordinea, astfel încât main-image să fie înainte de main-content */
+  }
+}
+
+/* Stiluri pentru imaginea din main-image pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .main-image img {
+    max-width: 100%; /* Asigură ca imaginea să nu depășească lățimea containerului */
+    height: auto; /* Asigură aspectul corect al imaginii pe ecranele mai mici */
+    padding: 20px; /* Adaugă spațiu în jurul imaginii */
+    border: 2px solid #fefafa; /* Adaugă un chenar de 2 pixeli, solid, de culoare neagră */
+    box-sizing: border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adaugă o umbră de 4 pixeli spre partea de jos și de 8 pixeli spre partea dreaptă, cu opacitate de 0.1 */
+  }
+}
+
+/* Stiluri pentru imaginea din main-image1 pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .main-image1 img {
+    width: 100%; /* Asigură că imaginea acoperă întreaga lățime a containerului */
+    height: auto; /* Asigură aspectul corect al imaginii pe ecranele mai mici */
+    padding: 20px; /* Adaugă spațiu în jurul imaginii */
+  }
+}
+
+/* Stiluri pentru make-up1 pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .make-up1 img {
+    width: 250px; /* Reduc dimensiunea imaginilor pentru ecrane mici */
+    height: auto; /* Asigur lățimea corectă pentru imaginile reduse */
+    margin-top: 20px; /* Reduc spațiul de sus */
+    margin-left: 0; /* Resetare la poziția originală */
+  }
+}
+
+/* Stiluri pentru image-caption1 pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .image-caption1 {
+    margin-left: 0; /* Resetare la poziția originală */
+  }
+}
+
+/* Stiluri pentru card1 pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .card1 {
+    width: 90%; /* Reduc lățimea cardului pentru ecrane mici */
+    margin: 10px auto; /* Afișez cardurile în centru */
+  }
+}
+
+/* Stiluri pentru card-container pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .card-container {
+    flex-direction: column; /* Afișez cardurile într-o singură coloană */
+    align-items: center; /* Afișez cardurile în centru */
+  }
+}
+
+/* Stiluri pentru form pe ecrane mici */
+@media screen and (max-width: 768px) {
+  form {
+    width: 90%; /* Reduc lățimea formularului pentru ecrane mici */
+    margin: 0 auto; /* Afișez formularul în centru */
+  }
+}
+
+/* Stiluri pentru form input și select pe ecrane mici */
+@media screen and (max-width: 768px) {
+  .form input,
+  .form select {
+    width: 100%; /* Asigură că input-urile și select-urile acoperă întreaga lățime a containerului */
+    margin-left: 0; /* Resetare la poziția originală */
+  }
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: red;
+}
+
