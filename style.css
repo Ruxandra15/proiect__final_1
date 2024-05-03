@@ -224,60 +224,52 @@ footer {
 }
 
 /* CSS pentru designul responsive folosind media queries */
-
-/* Stiluri pentru main-content pe ecrane mici */
 @media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .main-content {
-    font-size: 24px; /* Reduc dimensiunea textului pentru ecrane mici */
-    width: 90%; /* Reduc lățimea pentru a se potrivi ecranului */
-    left: 0; /* Resetare la poziția originală */
-    margin-top: 100px; /* Reduc spațiul de sus */
-    order: 2; /* Schimbă ordinea, astfel încât main-content să fie după main-image */
+    text-align: center;
+    margin-top: 20px;
   }
-}
-
-/* Stiluri pentru main-image pe ecrane mici */
-@media screen and (max-width: 768px) {
-  .main-image {
-    order: 1; /* Schimbă ordinea, astfel încât main-image să fie înainte de main-content */
-  }
-}
-
-/* Stiluri pentru imaginea din main-image pe ecrane mici */
-@media screen and (max-width: 768px) {
+  .main-image1 img,
   .main-image img {
-    max-width: 100%; /* Asigură ca imaginea să nu depășească lățimea containerului */
-    height: auto; /* Asigură aspectul corect al imaginii pe ecranele mai mici */
-    padding: 20px; /* Adaugă spațiu în jurul imaginii */
-    border: 2px solid #fefafa; /* Adaugă un chenar de 2 pixeli, solid, de culoare neagră */
-    box-sizing: border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adaugă o umbră de 4 pixeli spre partea de jos și de 8 pixeli spre partea dreaptă, cu opacitate de 0.1 */
-  }
-}
-
-/* Stiluri pentru imaginea din main-image1 pe ecrane mici */
-@media screen and (max-width: 768px) {
-  .main-image1 img {
-    width: 100%; /* Asigură că imaginea acoperă întreaga lățime a containerului */
-    height: auto; /* Asigură aspectul corect al imaginii pe ecranele mai mici */
-    padding: 20px; /* Adaugă spațiu în jurul imaginii */
+    width: 100%;
+    max-width: 400px; /* Ajustează dimensiunea maximă a imaginilor */
+    height: auto;
+    margin-top: 20px; /* Spațiere între imaginile consecutive */
   }
 }
 
 /* Stiluri pentru make-up1 pe ecrane mici */
 @media screen and (max-width: 768px) {
-  .make-up1 img {
-    width: 250px; /* Reduc dimensiunea imaginilor pentru ecrane mici */
-    height: auto; /* Asigur lățimea corectă pentru imaginile reduse */
-    margin-top: 20px; /* Reduc spațiul de sus */
-    margin-left: 0; /* Resetare la poziția originală */
+  /* Modificările pentru card-container */
+  .card-container {
+    flex-direction: column; /* Afișez cardurile într-o singură coloană */
+    align-items: center; /* Afișez cardurile în centru */
+    margin-top: 20px; /* Spațierea între elementele de deasupra și container */
   }
-}
 
-/* Stiluri pentru image-caption1 pe ecrane mici */
-@media screen and (max-width: 768px) {
-  .image-caption1 {
-    margin-left: 0; /* Resetare la poziția originală */
+  /* Modificările pentru card */
+  .card {
+    width: 90%; /* Reduc lățimea cardului pentru ecrane mici */
+    margin: 10px auto; /* Afișez cardurile în centru */
+  }
+
+  /* Modificările pentru make-up1 */
+  .make-up1 img {
+    max-width: 100%; /* Asigur că imaginea nu depășește lățimea containerului */
+    height: auto; /* Asigur proporțiile corecte ale imaginii */
+    margin: 20px auto; /* Spațierea și afișarea în centru pe ecranele mici */
+    margin-left:auto; /* Afișez imaginea în centru pe ecranele mici */
+    margin-right: auto; /* Afișez imaginea în centru pe ecranele mici */
+    display: block; /* Asigur că imaginea ocupă întreaga lățime a containerului */
+  }
+  .image-caption1{
+    margin: 0;
   }
 }
 
@@ -289,13 +281,7 @@ footer {
   }
 }
 
-/* Stiluri pentru card-container pe ecrane mici */
-@media screen and (max-width: 768px) {
-  .card-container {
-    flex-direction: column; /* Afișez cardurile într-o singură coloană */
-    align-items: center; /* Afișez cardurile în centru */
-  }
-}
+
 
 /* Stiluri pentru form pe ecrane mici */
 @media screen and (max-width: 768px) {
