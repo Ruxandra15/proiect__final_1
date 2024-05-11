@@ -1,31 +1,34 @@
+/* Stiluri pentru containerul fluid */
 .container-fluid {
   background-color: #fff0fd; /* Setează culoarea de fundal pentru containerul fluid */
 }
 
+/* Stiluri pentru link-urile din bara de navigare */
 .navbar-nav .nav-link {
   color: rgb(7, 7, 7); /* Setează culoarea textului link-urilor din bara de navigare */
 }
 
-.navbar-nav .nav-link:hover{
+/* Stiluri la hover pentru link-urile din bara de navigare */
+.navbar-nav .nav-link:hover {
   color: #000; /* Setează culoarea textului pentru link-uri la hover */
 }
 
+/* Stiluri pentru conținutul din main */
 main {
   background-color: #f9bddf; /* Setează culoarea de fundal pentru întregul conținut din <main> */
   padding: 50px 15px; /* Adaugăm padding pentru a crea spațiul între conținut și margini */
 }
 
-
+/* Stiluri pentru containerul principal */
 .container {
   max-width: 1200px;
   display: flex;
 }
 
-
-
+/* Stiluri pentru conținutul principal */
 .main-content {
   font-family: 'Times New Roman', Times, serif;
-  font-size:180px;
+  font-size: 180px;
   text-shadow: 1px 1px 2px rgba(55, 1, 39, 0.5);
   white-space: nowrap;
   position: relative; /* Adaugă position: relative */
@@ -36,35 +39,36 @@ main {
   margin-top: 250px;
 }
 
-
-.main-image1 img{
+/* Stiluri pentru imaginea principală 1 */
+.main-image1 img {
   width: 310px;
   height: 40%;
-  padding:20px;
+  padding: 20px;
   margin-top: 10px;
   margin-left: 10%;
 }
 
-
+/* Stiluri pentru imaginile principale */
 .main-image img {
   width: 95%;
-  padding:20px;
+  padding: 20px;
   margin-left: 8%; /* Mută imaginea spre dreapta prin adăugarea de spațiu la stânga */
   border: 2px solid #fefafa; /* Adaugă un chenar de 2 pixeli, solid, de culoare neagră */
   box-sizing: border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adaugă o umbră de 4 pixeli spre partea de jos și de 8 pixeli spre partea dreaptă, cu opacitate de 0.1 */
 }
 
+/* Stiluri pentru linia decorativă */
 .decorative-line {
-  position: absolute; /* Plasăm linia absolut în cadrul paginii */
-  left: 0; /* O începem de la marginea stângă a paginii */
-  width: 100%; /* Se extinde pe întreaga lățime a paginii */
+  position: absolute; /* Plasează linia în mod absolut */
+  left: 0; /* Așează linia la marginea stângă a paginii */
+  width: 100%; /* Extinde linia pe întreaga lățime a paginii */
   height: 2px; /* Grosimea liniei */
-  margin-top: 20px;
-  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Schimbă culoarea și direcția gradientului */
-  
+  margin-top: 20px; /* Spațierea de sus */
+  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Setează gradientul */
 }
 
+/* Stiluri pentru containerul card */
 .card-container {
   margin-top: 60px;
   margin-bottom: 15px;
@@ -73,78 +77,83 @@ main {
   padding: 10px; /* Adaugă un padding pentru a separa cardurile de margini */
 }
 
+/* Stiluri pentru card */
 .card {
   width: 50%; /* Setează lățimea cardului la 50% din lățimea ecranului */
   height: 1000px; /* Setează înălțimea cardului la 400 de pixeli, sau alte dimensiuni dorite */
-  
 }
 
+/* Stiluri pentru conținutul cardului */
 .card-body {
   background-color: #f6d2e6; /* Setează culoarea de fundal pentru conținutul din interiorul cardului */
   padding: 20px; /* Adaugă un padding pentru a separa conținutul de marginile cardului */
   text-align: center;
-  border:2px solid #fceaf5;
-  
+  border: 2px solid #fceaf5; /* Adaugă un chenar pentru card */
 }
 
-.card-text{
+/* Stiluri pentru textul din card */
+.card-text {
   font-size: 15px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Stiluri pentru imaginea make-up1 */
 .make-up1 img {
   width: 372px; 
   height: 575px; 
-  padding:20px;
+  padding: 20px;
   margin-top: 80px;
   margin-left: 50%;
   border: 2px solid #fefafa; /* Adaugă un chenar de 2 pixeli, solid, de culoare neagră */
-  box-sizing:border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
+  box-sizing: border-box; /* Asigură că lățimea și înălțimea imaginii includ și grosimea chenarului */
 }
 
-.image-caption1{
-  
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    padding: 10px;
-    white-space: nowrap;
-    margin-left: 70%;
-    color: #380534;
+/* Stiluri pentru descrierea imaginii make-up1 */
+.image-caption1 {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding: 10px;
+  white-space: nowrap;
+  margin-left: 70%; /* Poziționare */
+  color: #380534; /* Culoare text */
 }
 
-.decorative-line2{
-  position: absolute; /* Plasăm linia absolut în cadrul paginii */
-  left: 0; /* O începem de la marginea stângă a paginii */
-  width: 100%; /* Se extinde pe întreaga lățime a paginii */
+/* Stiluri pentru a doua linie decorativă */
+.decorative-line2 {
+  position: absolute; /* Plasează linia în mod absolut */
+  left: 0; /* Așează linia la marginea stângă a paginii */
+  width: 100%; /* Extinde linia pe întreaga lățime a paginii */
   height: 2px; /* Grosimea liniei */
-  margin-top: 0; /* Mută linia decorativă la marginea superioară a paginii */
-  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Schimbă culoarea și direcția gradientului */
+  margin-top: 0; /* Elimină spațiul de sus */
+  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Setează gradientul */
 }
 
+/* Stiluri pentru titlul cardului */
 .card-title {
   margin-top: 50px;
-  text-align: center;
+  text-align: center; /* Aliniază textul la centru */
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.card1{
+/* Stiluri pentru cardul 1 */
+.card1 {
   width: 300px;
-  height:300px;
- margin-top: 10px;
- margin-right: 40px;
- margin-left: 15px;
- 
+  height: 300px;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 15px;
 }
 
-.decorative-line3{
-  position: absolute; /* Plasăm linia absolut în cadrul paginii */
-  left: 0; /* O începem de la marginea stângă a paginii */
-  width: 100%; /* Se extinde pe întreaga lățime a paginii */
+/* Stiluri pentru a treia linie decorativă */
+.decorative-line3 {
+  position: absolute; /* Plasează linia în mod absolut */
+  left: 0; /* Așează linia la marginea stângă a paginii */
+  width: 100%; /* Extinde linia pe întreaga lățime a paginii */
   height: 2px; /* Grosimea liniei */
-  margin-top: 0; /* Mută linia decorativă la marginea superioară a paginii */
-  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Schimbă culoarea și direcția gradientului */
+  margin-top: 0; /* Elimină spațiul de sus */
+  background: linear-gradient(to right, #fce6f0, #fdd5f1, #f8acd6); /* Setează gradientul */
 }
 
 /* Stiluri pentru acordeon */
@@ -155,82 +164,157 @@ main {
   margin-bottom: 40px;
   background-color: #f6d2e6; /* Culoare de fundal */
   padding: 20px; /* Spatiu interior pentru a separa conținutul de margine */
-  
 }
 
-/* Reducerea dimensiunii textului */
+/* Reducerea dimensiunii textului butoanelor acordeonului */
 .accordion .accordion-button {
   background-color: #e684f3; /* Culoarea de fundal a butoanelor */
   color: #140218; /* Culoarea textului butoanelor */
   font-size: 14px;
- 
 }
+
+/* Stiluri pentru butoanele acordeonului la hover */
 .accordion-button:hover {
   background-color: #f773ac; /* Culoarea de fundal a butoanelor la hover */
 }
 
 /* Reducerea spațiului dintre elementele acordeonului */
 .accordion-item {
-  margin-bottom: 8px;
+  margin-bottom: 8px; /* Spațierea între elementele acordeonului */
 }
+
+/* Stiluri pentru iconița din dreapta butoanelor acordeonului */
 .icon-right {
   margin-left: 10px; /* Poziționează icoana la dreapta */
 }
 
+/* Stiluri pentru textul din footer */
 footer h5 {
   text-align: center; /* Aliniază textul pe centru */
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  color:#5c0a51;
-}
-form{
-  display: flex; 
-  flex-direction: column;
-  width: 400px; 
-  margin: 0 auto; 
-  margin-top: 50px;
-  background-color: #f8c6f1;
-  border: 2px solid #63054a; /* Adaugă un chenar formularului */
-  padding: 20px;
-  
+  font-family: Georgia, 'Times New Roman', Times, serif; /* Familie font */
+  color: #5c0a51; /* Culoare text */
 }
 
+/* Stiluri pentru formular */
+form {
+  display: flex; /* Folosește flexbox */
+  flex-direction: column; /* Aliniază elementele pe coloană */
+  width: 400px; /* Lățimea formularului */
+  margin: 0 auto; /* Așează în centru */
+  margin-top: 50px; /* Spațierea de sus */
+  background-color: #f8c6f1; /* Culoare de fundal */
+  border: 2px solid #63054a; /* Adaugă un chenar */
+  padding: 20px; /* Adaugă padding pentru spațiere */
+}
+
+/* Stiluri pentru etichetele din formular */
 .form label {
-  display: block; /* Afișează fiecare etichetă pe un nou rând */
-  margin-bottom: 5px; /* Adaugă un spațiu mic între etichete */
-  text-align: center;
-  
+  display: block; /* Afișează etichetele pe un rând nou */
+  margin-bottom: 5px; /* Spațierea între etichete */
+  text-align: center; /* Aliniază textul la centru */
 }
 
-.form input, .form select {
-  width: 70%; /* Lățimea maximă pentru a se întinde pe toată lățimea containerului */
-  margin-bottom: 10px; /* Adaugă un spațiu între câmpurile de introducere */
-  margin-left: 50px;
+/* Stiluri pentru input-uri și select-uri din formular */
+.form input,
+.form select {
+  width: 70%; /* Lățimea input-urilor */
+  margin-bottom: 10px; /* Spațierea între input-uri */
+  margin-left: 50px; /* Spațierea la stânga */
 }
 
+/* Stiluri pentru butonul din formular */
 .form button {
-  display: block; /* Afișează butonul pe un nou rând */
-  width: 40%; /* Lățimea maximă pentru a se întinde pe toată lățimea containerului */
-  margin-left: 110px;
-  background-color: #f6d2e6;
-}
-.form button:hover{
-  background-color: #7b0857;
+  display: block; /* Afișează butonul pe un rând nou */
+  width: 40%; /* Lățimea butonului */
+  margin-left: 110px; /* Spațierea la stânga */
+  background-color: #f6d2e6; /* Culoare de fundal */
 }
 
+/* Stiluri pentru butonul din formular la hover */
+.form button:hover {
+  background-color: #7b0857; /* Culoare de fundal la hover */
+}
 
+/* Stiluri pentru footer */
 footer {
-  background-color: #fff0fd; /* Culoarea de fundal */
-  padding: 20px; /* Adaugă puțin spațiu între conținut și margine */
+  background-color: #fff0fd; /* Culoare de fundal */
+  padding: 20px; /* Adaugă padding pentru spațiere */
 }
 
-/* CSS pentru designul responsive folosind media queries */
+/* Stiluri pentru designul responsive folosind media queries */
+/* Stiluri generale pentru ecrane mici */
+@media screen and (max-width: 768px) {
+  /* Stiluri pentru container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-content {
+    text-align: center;
+    margin-top: 20px;
+  }
 
+  /* Stiluri pentru imaginile principale */
+  .main-image1 img,
+  .main-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+  }
+  .card-container {
+    flex-direction: column; /* Afișez cardurile într-o singură coloană */
+    align-items: center; /* Afișez cardurile în centru */
+    margin-top: 20px; /* Spațierea între elementele de deasupra și container */
+  }
 
+  /* Stiluri pentru card-uri */
+  .card,
+  .card1 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  /* Stiluri pentru formular */
+  form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Stiluri pentru input-uri și select-uri din formular */
+  .form input,
+  .form select {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Stiluri pentru make-up1 */
+  .make-up1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .make-up1 img {
+    width: 100%; /* Lățime relativă pentru a se potrivi containerului */
+    margin-left: 0; /* Elimină margin-left */
+    margin-right: 0; /* Elimină margin-right */
+  }
+  
+  .image-caption1 {
+    margin-left: 0;
+  }
+}
+
+/* Stiluri pentru mesajul de succes */
 .success-message {
-  color: green;
+  color: green; /* Culoare text */
 }
 
+/* Stiluri pentru mesajul de eroare */
 .error-message {
-  color: red;
+  color: red; /* Culoare text */
 }
-
